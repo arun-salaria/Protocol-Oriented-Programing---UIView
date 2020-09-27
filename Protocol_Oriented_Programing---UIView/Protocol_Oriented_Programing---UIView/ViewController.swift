@@ -7,15 +7,11 @@
 
 import UIKit
 
-class CustomView:UIView,RoundCorners{
-    
-}
-class CustomLabel:UILabel,RoundCorners,AnimationProtocols,AddShadow{
-    
-}
-class CustomButton:UIButton,RoundCorners{
-    
-}
+
+// For Using View with Protocols we need Custom Views
+class CustomView:UIView,RoundCorners{}
+class CustomLabel:UILabel,RoundCorners,AnimationProtocols,AddShadow{}
+class CustomButton:UIButton,RoundCorners{}
 
 class ViewController: UIViewController {
 

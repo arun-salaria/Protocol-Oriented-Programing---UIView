@@ -6,6 +6,9 @@
 //
 import UIKit
 
+// Always use protocols for decompiling to provide more flexibility
+
+
 protocol RoundCorners {}
 extension RoundCorners where Self: UIView {
     func roundCorner(radius:CGFloat) {

@@ -101,10 +101,10 @@
 		F4F3DA3825209721008BD316 /* Protocol_Oriented_Programing---UIView */ = {
 			isa = PBXGroup;
 			children = (
+				F4F3DA712520A9D2008BD316 /* Protocols */,
 				F4F3DA3925209721008BD316 /* AppDelegate.swift */,
 				F4F3DA3B25209721008BD316 /* SceneDelegate.swift */,
 				F4F3DA3D25209721008BD316 /* ViewController.swift */,
-				F4F3DA6C25209CCF008BD316 /* ViewProtocols.swift */,
 				F4F3DA3F25209721008BD316 /* Main.storyboard */,
 				F4F3DA4225209725008BD316 /* Assets.xcassets */,
 				F4F3DA4425209725008BD316 /* LaunchScreen.storyboard */,
@@ -129,6 +129,14 @@
 				F4F3DA5D25209726008BD316 /* Info.plist */,
 			);
 			path = "Protocol_Oriented_Programing---UIViewUITests";
+			sourceTree = "<group>";
+		};
+		F4F3DA712520A9D2008BD316 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F4F3DA6C25209CCF008BD316 /* ViewProtocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
