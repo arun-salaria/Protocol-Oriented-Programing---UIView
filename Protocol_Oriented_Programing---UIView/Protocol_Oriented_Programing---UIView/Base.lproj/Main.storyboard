@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0tn-i9-Mcy">
-                                <rect key="frame" x="87" y="283" width="240" height="128"/>
+                                <rect key="frame" x="87" y="306" width="240" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnc-hM-8sS">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready To Animate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnc-hM-8sS">
                                         <rect key="frame" x="55" y="43" width="130" height="42"/>
                                         <color key="backgroundColor" red="0.91372549020000005" green="0.30588235289999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="130" id="YkJ-6Z-5rh"/>
                                             <constraint firstAttribute="height" constant="42" id="uld-cu-edH"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -40,27 +40,35 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBZ-Aj-zNs">
-                                <rect key="frame" x="147" y="433" width="120" height="43"/>
+                                <rect key="frame" x="147" y="456" width="120" height="43"/>
                                 <color key="backgroundColor" red="0.0" green="0.68627450980000004" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="j0k-hf-lqS"/>
                                     <constraint firstAttribute="height" constant="43" id="uAd-rn-EIy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <state key="normal" title="Change Text">
+                                <state key="normal" title="Animate Text">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="didTapOnAnimateBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJy-9J-9Pm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="qBZ-Aj-zNs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5AC-Qw-Hlo"/>
-                            <constraint firstItem="0tn-i9-Mcy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-101" id="LyM-79-Me8"/>
+                            <constraint firstItem="0tn-i9-Mcy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-78" id="LyM-79-Me8"/>
                             <constraint firstItem="0tn-i9-Mcy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ea8-0O-Ek6"/>
                             <constraint firstItem="qBZ-Aj-zNs" firstAttribute="top" secondItem="0tn-i9-Mcy" secondAttribute="bottom" constant="22" id="jnO-AH-2wh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="animateTextBtn" destination="qBZ-Aj-zNs" id="RmA-BR-M9R"/>
+                        <outlet property="labelBGView" destination="0tn-i9-Mcy" id="Zzv-q5-cKW"/>
+                        <outlet property="samplelbl" destination="Qnc-hM-8sS" id="GJd-VK-blm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -15,6 +15,7 @@
 		F4F3DA4625209725008BD316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F3DA4425209725008BD316 /* LaunchScreen.storyboard */; };
 		F4F3DA5125209726008BD316 /* Protocol_Oriented_Programing___UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3DA5025209726008BD316 /* Protocol_Oriented_Programing___UIViewTests.swift */; };
 		F4F3DA5C25209726008BD316 /* Protocol_Oriented_Programing___UIViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3DA5B25209726008BD316 /* Protocol_Oriented_Programing___UIViewUITests.swift */; };
+		F4F3DA6D25209CCF008BD316 /* ViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F3DA6C25209CCF008BD316 /* ViewProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F4F3DA5725209726008BD316 /* Protocol_Oriented_Programing---UIViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Protocol_Oriented_Programing---UIViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F3DA5B25209726008BD316 /* Protocol_Oriented_Programing___UIViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol_Oriented_Programing___UIViewUITests.swift"; sourceTree = "<group>"; };
 		F4F3DA5D25209726008BD316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F3DA6C25209CCF008BD316 /* ViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F4F3DA3925209721008BD316 /* AppDelegate.swift */,
 				F4F3DA3B25209721008BD316 /* SceneDelegate.swift */,
 				F4F3DA3D25209721008BD316 /* ViewController.swift */,
+				F4F3DA6C25209CCF008BD316 /* ViewProtocols.swift */,
 				F4F3DA3F25209721008BD316 /* Main.storyboard */,
 				F4F3DA4225209725008BD316 /* Assets.xcassets */,
 				F4F3DA4425209725008BD316 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				F4F3DA3E25209721008BD316 /* ViewController.swift in Sources */,
 				F4F3DA3A25209721008BD316 /* AppDelegate.swift in Sources */,
+				F4F3DA6D25209CCF008BD316 /* ViewProtocols.swift in Sources */,
 				F4F3DA3C25209721008BD316 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
